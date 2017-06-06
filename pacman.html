@@ -56,9 +56,9 @@
         },
 
         preload: function () {
-
-           
-            this.load.baseURL = 'https://xjokom.github.io/pacman/';
+               //  We need this because the assets are on github pages
+            //  Remove the next 2 lines if running locally
+             this.load.baseURL = 'https://xjokom.github.io/pacman/';
             this.load.crossOrigin = 'anonymous';
 
             this.load.image('dot', 'assets/dot.png');
